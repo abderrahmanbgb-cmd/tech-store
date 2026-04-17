@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Products</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav>
+  <h2>TechStore</h2>
+  <div>
+    <a href="index.html">Home</a>
+    <a href="produits.html">Products</a>
+    <a href="panier.html">Cart</a>
+  </div>
+</nav>
+
+<h2 class="title">All Products</h2>
+
+<section class="products">
+
+  <div class="product">
+    <img src="rtx3060.png">
+    <h3>RTX 3060</h3>
+    <p>70000 DA</p>
+    <button onclick="addToCart('RTX 3060', 70000)">Add to Cart</button>
+  </div>
+
+  <div class="product">
+    <img src="16gb.jpg">
+    <h3>16GB RAM</h3>
+    <p>12000 DA</p>
+    <button onclick="addToCart('16GB RAM', 12000)">Add to Cart</button>
+  </div>
+
+</section>
+
+<script src="js/main.js"></script>
+</body>
+</html>
